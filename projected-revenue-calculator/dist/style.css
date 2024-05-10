@@ -1,0 +1,27 @@
+body {
+  font-family: "Your Custom Font", sans-serif;
+}
+
+.calc-form {
+  padding-top: 2.75rem;
+}
+
+/* Adding the padding to the container */
+.container {
+  padding-top: 60px;
+  /* Extra top padding */
+  padding-bottom: 80px;
+  /* Extra bottom padding */
+}
+
+.btn {
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #cc5200;
+}

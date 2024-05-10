@@ -1,0 +1,28 @@
+@import "neat@4.*";
+// Apply custom fonts (assumes they are included in the CodePen settings)
+body {
+  font-family: 'Your Custom Font', sans-serif; // Replace with the actual font-family
+}
+
+.calc-form {
+  padding-top: 2.75rem;
+}
+
+/* Adding the padding to the container */
+.container {
+  padding-top: 60px; /* Extra top padding */
+  padding-bottom: 80px; /* Extra bottom padding */
+}
+
+.btn {
+  background-color: #ff6600; // Example color
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #cc5200; // Example hover color
+  }
+}
